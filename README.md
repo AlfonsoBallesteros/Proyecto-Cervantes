@@ -1,2 +1,0 @@
-# Proyecto-Cervantes
-index.html
