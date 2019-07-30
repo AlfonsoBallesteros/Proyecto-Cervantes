@@ -4,6 +4,8 @@ h1 {letter-spacing: 6px}
 .w3-row-padding img {margin-bottom: 12px}
 .w3-theme-d1 {color:#fff !important; background-color:#558dd1 !important}
 .w3-theme-l5 {color:#000 !important; background-color:#fbfbfb !important}
+.w3-theme-l1 {color:#fff !important; background-color:#456f93 !important}
+.w3-theme {color:#fff !important; background-color:#00a591 !important}
 .mySlides {display:none}
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
 .w3-badge {height:13px;width:13px;padding:0}
