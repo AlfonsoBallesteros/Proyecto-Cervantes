@@ -15,7 +15,7 @@
 <div class="w3-content" style="max-width:1500px">
 
 <!-- Header -->
-<header class="w3-panel w3-center w3-opacity" style="padding:128px 16px">
+<header class="w3-panel w3-center w3-opacity">
     <h1 class="w3-xlarge">Video</h1>
     <h1>Miguel de Cervantes Saveedra</h1>
     
@@ -39,21 +39,47 @@
     </div>
   </header>
 
-<!-- Photo Grid -->
-
+<!-- Panel de videos-->
+<div class="w3-content">
+  <div class="w3-row">
+  <div class="w3-col s3  w3-center">
+    <div class=" w3-bar-block w3-light-grey w3-card" style="height:650px">
+        <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'video1')"><h4>Video1</h4></button>
+        <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'video2')"><h4>Video2</h4></button>   
+        <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'video3')"><h4>Video3</h4></button>
+	</div>
+  </div>
+  <div class="w3-col s9 w3-center" style="height:650px">
+    <div id="video1" class="w3-container city w3-animate-left">
+      <h4>MIGUEL DE CERVANTES - Draw My Life | con El Coleccionista de Mundos</h4>
+      <iframe src="https://youtu.be/f41SJRLj-No" frameborder="2" height="100%" width="100%"></iframe>
+    </div>
+    <div id="video2" class="w3-container city w3-animate-left">
+      <h4>Draw my life - Miguel de Cervantes #IVCentenario</h4>
+      <iframe src="https://www.youtube.com/watch?v=xX9qXbvOy1E" frameborder="2" height="100%" width="100%"></iframe>
+    </div>
+    <div id="video3" class="w3-container city w3-animate-left">
+        <h4>Cervantes y la leyenda de Don Quijote</h4>
+        <iframe src="https://www.youtube.com/watch?v=tsv-LQm9xmk" frameborder="2" height="100%" width="100%"></iframe>
+    </div>
+  </div>
+</div>
+</div>
+<!-- Final Panel de videos-->
 <!-- End Page Content -->
 </div>
-
+<br>
 <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-theme-d1 w3-center w3-large"> 
-  <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  <i class="fa fa-instagram w3-hover-opacity"></i>
-  <i class="fa fa-snapchat w3-hover-opacity"></i>
-  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-  <i class="fa fa-twitter w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <i class="fab fa-facebook-square"></i>
+  <i class="fab fa-instagram"></i>
+  <i class="fab fa-snapchat-square"></i>
+  <i class="fab fa-pinterest-square"></i>
+  <i class="fab fa-twitter-square"></i>
+  <i class="fab fa-linkedin"></i>
+  <p>Powered by <a href="./autor.html" target="_blank" class="w3-hover-text-green">Alfonso</a></p>
 </footer>
 <script src="https://kit.fontawesome.com/f760617b90.js"></script>
+<script src="../js/video.js"></script>
 </body>
 </html>
